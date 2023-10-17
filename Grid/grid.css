@@ -1,0 +1,144 @@
+/* This is a first container  */
+.container {
+  height: 480px;
+  width: 600px;
+  margin-top: 20px;
+  margin-left: 400px;
+  margin-top: 30px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* divone ya grid 1 */
+.divone {
+  background: rgb(121, 209, 231);
+  height: 340px;
+  width: 250px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  box-shadow: 5px 5px 10px black;
+  animation: divone 3s infinite;
+}
+
+/* divtwo ya grid 2 */
+.divtwo {
+  background: rgb(121, 209, 231);
+  height: 130px;
+  width: 600px;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  box-shadow: 5px 5px 10px black;
+}
+
+/* divthree ya grid 3 */
+.divthree {
+  background: rgb(121, 209, 231);
+  height: 230px;
+  width: 335px;
+  margin-left: 263px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  box-shadow: 5px 5px 10px black;
+}
+
+/* This is a second container */
+.containertwo {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 120px;
+  width: 440px;
+  margin-top: -490px;
+  margin-left: 260px;
+}
+
+/* second container divone */
+.gridone {
+  height: 100px;
+  width: 105px;
+  margin-left: -100px;
+  background: rgb(121, 209, 231);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  box-shadow: 5px 5px 15px black;
+}
+
+/* second container divtwo */
+.gridtwo {
+  height: 100px;
+  background: rgb(121, 209, 231);
+  width: 105px;
+  margin-left: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  box-shadow: 5px 5px 15px black;
+}
+
+/* second container divthree */
+.gridthree {
+  height: 100px;
+  background: rgb(121, 209, 231);
+  width: 105px;
+  margin-left: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  box-shadow: 5px 5px 10px black;
+}
+
+/* I am using curser  properties*/
+b {
+  cursor: pointer;
+}
+
+b:hover {
+  color: red;
+}
+
+/* All keyframes section*/
+h1 {
+  color: black;
+  cursor: pointer;
+}
+
+/* This is a heading name h1 hover for looking cool  */
+h1:hover {
+  color: red;
+}
+
+.helo {
+  background: green;
+  position: relative;
+  animation: helo 2s infinite;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* css keyframes for heading name */
+@keyframes helo {
+  0% {
+    top: 0 !important;
+    width: 0;
+  }
+  25% {
+    top: 50px !important;
+    background: rgb(121, 209, 231);
+  }
+  50% {
+    top: 100px !important;
+    background: rgb(121, 209, 231);
+  }
+  100% {
+    top: 200px !important;
+    color: white;
+    background: rgb(121, 209, 231);
+    width: 210px;
+  }
+}
